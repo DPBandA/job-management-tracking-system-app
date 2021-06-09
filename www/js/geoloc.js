@@ -20,6 +20,7 @@ function onSuccess(position) {
     var timestamp, latitude, longitude, accuracy;
 
     var element = document.getElementById('geolocationData');
+    
 
     timestamp = new Date(position.timestamp);
     latitude = position.coords.latitude;
